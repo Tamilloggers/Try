@@ -5,6 +5,8 @@ FROM docker:latest
 ENV GitHubMail=tamilloggers@gmail.com
 ENV GitHubName=Tamilloggers
 ENV Branch=master
+ENV GH_TOKEN=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
+ENV REPO=Tamilloggers/hero
 
 # Install necessary packages
 RUN apk update && apk add --no-cache \

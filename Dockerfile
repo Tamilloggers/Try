@@ -7,6 +7,7 @@ ENV GitHubName=Tamilloggers
 ENV Branch=deploy
 ENV GH_TOKEN=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
 ENV REPO=Tamilloggers/Hero
+ENV CONFIG_FILE_URL=https://gist.github.com/BalaPriyan/404a7f234bac4bd85aca541e5e114058
 
 # Install necessary packages
 RUN apk update && apk add --no-cache \

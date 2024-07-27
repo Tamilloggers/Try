@@ -4,9 +4,9 @@ FROM docker:latest
 # Set environment variables
 ENV GitHubMail=tamilloggers@gmail.com
 ENV GitHubName=Tamilloggers
-ENV Branch=master
+ENV Branch=deploy
 ENV GH_TOKEN=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
-ENV REPO=Tamilloggers/hero
+ENV REPO=Tamilloggers/Hero
 
 # Install necessary packages
 RUN apk update && apk add --no-cache \
